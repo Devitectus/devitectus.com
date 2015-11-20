@@ -46,6 +46,9 @@
 $global-width: rem-calc(1200);
 $global-font-size: 100%;
 $global-lineheight: 1.5;
+
+$devitectus_blue: #288FEB;
+
 $primary-color: #2199e8;
 $secondary-color: #777;
 $success-color: #3adb76;
@@ -130,7 +133,7 @@ $code-font-weight: $global-weight-normal;
 $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
-$anchor-color: $primary-color;
+$anchor-color: $white;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
@@ -524,7 +527,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: #eee;
+$topbar-background: transparent;
 $topbar-link-color: #fff;
 $topbar-input-width: 200px;
 

@@ -13,6 +13,7 @@ $foundation-version: '6.0.0';
 // Global variables and styles
 @import 'global';
 
+@import 'settings';
 // Components
 @import 'grid/grid';
 @import 'typography/typography';
