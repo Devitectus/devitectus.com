@@ -23,7 +23,7 @@ $(document).ready(function(){
   		enableScroll();
 	  }
   	$('html, body').animate({
-  		scrollTop: $('#services').offset().top
+  		scrollTop: $('#contacts').offset().top
   	}, 1000);
   });
 
@@ -35,7 +35,7 @@ $(document).ready(function(){
   		enableScroll();
 	  }
   	$('html, body').animate({
-  		scrollTop: $('#contacts').offset().top
+  		scrollTop: $('#services').offset().top
   	}, 1000);
   });
 

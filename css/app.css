@@ -3245,6 +3245,23 @@ body {
   .page-wrapper .copy a {
     text-decoration: none;
     color: #fefefe; }
+  .page-wrapper #mission {
+    position: relative;
+    z-index: 2;
+    padding: 50px 25px;
+    color: #0a0a0a;
+    font-family: Hack, "Courier New", Courier, monospace;
+    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/diagonal-noise.png"), -webkit-linear-gradient(-450deg, #f9f9f9, #e9e9e9), center no-repeat #f9f9f9 scroll;
+    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/diagonal-noise.png"), linear-gradient(180deg, #f9f9f9, #e9e9e9), center no-repeat #f9f9f9 scroll; }
+    .page-wrapper #mission .mission-wrapper {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 62.5em; }
+      .page-wrapper #mission .mission-wrapper::after {
+        clear: both;
+        content: "";
+        display: table; }
   .page-wrapper #services {
     color: #288FEB;
     position: relative;
@@ -3270,6 +3287,18 @@ body {
           margin-right: 0; }
         .page-wrapper #services .services-wrapper .service:last-child {
           margin-bottom: 0; }
+        .page-wrapper #services .services-wrapper .service .service-header {
+          color: #288FEB;
+          font-weight: bold; }
+        .page-wrapper #services .services-wrapper .service img {
+          width: 33%;
+          margin-bottom: 20px; }
+          @media screen and (min-width: 679px) {
+            .page-wrapper #services .services-wrapper .service img {
+              width: 50%;
+              margin-bottom: 20px; } }
+        .page-wrapper #services .services-wrapper .service a {
+          color: #0a0a0a; }
         @media screen and (min-width: 679px) {
           .page-wrapper #services .services-wrapper .service {
             margin-bottom: 0;
@@ -3336,7 +3365,7 @@ body {
       background-color: #f6f6f6;
       border-radius: 3px;
       border: 1px solid gainsboro;
-      box-shadow: 0 2px 4px #e6e6e6;
+      box-shadow: 0 2px 4px #e5e5e5;
       cursor: pointer;
       margin: 0 1em 1.5em 1em;
       position: relative; }
@@ -3344,7 +3373,7 @@ body {
         overflow: hidden;
         height: 150px;
         max-height: 150px;
-        background-color: #F8F2B4; }
+        background-color: #fefefe; }
         .page-wrapper #contacts .card .card-image img {
           -webkit-transition: all 0.2s ease-in-out;
           -moz-transition: all 0.2s ease-in-out;
@@ -3381,7 +3410,8 @@ body {
           background-color: #f6f6f6; }
   .page-wrapper #customers {
     color: #777;
-    background-color: #f6f6f6;
+    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/diagonal-noise.png"), -webkit-linear-gradient(-450deg, #f9f9f9, #e9e9e9), center no-repeat #f9f9f9 scroll;
+    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/diagonal-noise.png"), linear-gradient(180deg, #f9f9f9, #e9e9e9), center no-repeat #f9f9f9 scroll;
     padding: 50px 25px 25px; }
     .page-wrapper #customers p {
       padding-bottom: 10px; }
