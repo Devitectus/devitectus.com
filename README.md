@@ -1,1 +1,0 @@
-## Devitectus: devitectus.com
